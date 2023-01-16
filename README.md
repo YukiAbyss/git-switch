@@ -44,21 +44,18 @@ $ git-switch
 ### After setting git-switch, you can view the configuration file 「~/.gitswitch.json」
 ```bash
 $ cat ~/.gitswitch.json 
-{
-	"Users": [
-		{
-			"name": "yuki",
-			"email": "yy__yyyy@126.com",
-			"ssh_key_file_path": "/Users/Yuki/.ssh/yuki_id_rsa"
-		},
-		{
-			"name": "tom",
-			"email": "tom@cc.io",
-			"ssh_key_file_path": "/Users/Yuki/.ssh/id_rsa"
-		}
-	],
-	"Filename": ".gitswitch.json"
-}
+[
+	{
+		"name": "yuki",
+		"email": "yy__yyyy@126.com",
+		"ssh_key_file_path": "/Users/Yuki/.ssh/yuki_id_rsa"
+	},
+	{
+		"name": "nodereal",
+		"email": "yuki.w@nodereal.io",
+		"ssh_key_file_path": "/Users/Yuki/.ssh/nodereal_id_rsa"
+	}
+]
 ```
 
 ### Some operations during switch
