@@ -38,8 +38,8 @@ $ ls -al ~/.gitswitchv1.json
 $ git-switch
 Use the arrow keys to navigate: ↓ ↑ → ← 
 ? Select a switch git user: 
-  ▸ yuki         your_email@example.com       /Users/Yuki/.ssh/yuki_id_rsa
-    tom     your_email@example.com       /Users/Yuki/.ssh/id_rsa
+  ▸ yuki     yy__yyyy@126.com     /Users/Yuki/.ssh/yuki_id_rsa
+    tom      tom@cc.io            /Users/Yuki/.ssh/id_rsa
 ```
 
 ### After setting git-switch, you can view the configuration file 「~/.gitswitch.json」
