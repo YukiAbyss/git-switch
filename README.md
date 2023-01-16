@@ -52,9 +52,9 @@ $ cat ~/.gitswitch.json
 		"ssh_key_file_path": "/Users/Yuki/.ssh/yuki_id_rsa"
 	},
 	{
-		"name": "nodereal",
-		"email": "yuki.w@nodereal.io",
-		"ssh_key_file_path": "/Users/Yuki/.ssh/nodereal_id_rsa"
+		"name": "tom",
+		"email": "tom@cc.io",
+		"ssh_key_file_path": "/Users/Yuki/.ssh/id_rsa"
 	}
 ]
 ```
