@@ -30,15 +30,16 @@ git-switch -o
 ## Check installed
 ```bash
 $ ls -al $GOPATH/bin | grep git-switch
-> -rwxr-xr-x   1 yy  staff   4402130  1  5 12:10 git-switch
+-rwxr-xr-x   1 yy  staff   4402130  1  5 12:10 git-switch
 
-$ export PATH=$GOPATH/bin:$PATH
+$ ls -al ~/.gitswitchv1.json 
+-rw-r--r--  1 yy  staff  232  1 16 12:34 /Users/Yuki/.gitswitchv1.json
+
 $ git-switch
-> Use the arrow keys to navigate: ↓ ↑ → ← 
-> ? Select action: 
->   ▸ Select a git user
->     Add a new git user
->     Delete an existing git user
+Use the arrow keys to navigate: ↓ ↑ → ← 
+? Select a switch git user: 
+  ▸ yuki         yy__yyyy@126.com       /Users/Yuki/.ssh/yuki_id_rsa
+    nodereal     yuki.w@nodereal.io     /Users/Yuki/.ssh/nodereal_id_rsa
 ```
 
 ### After setting git-switch, you can view the configuration file 「~/.gitswitch.json」
