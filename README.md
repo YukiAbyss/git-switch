@@ -62,7 +62,7 @@ $ cat ~/.gitswitch.json
 ### Some operations during switch
 
 When git-switch [selects users](main.go#L139), the following 2 steps will be performed 
-1. Delete ssh key
+1. Delete ssh key and add a new key
 2. Add/Overwrite git global config
 ```bash
 # clear ssh key and add ssh key
