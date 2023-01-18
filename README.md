@@ -32,8 +32,8 @@ git-switch -o
 $ ls -al $GOPATH/bin | grep git-switch
 -rwxr-xr-x   1 yy  staff   4402130  1  5 12:10 git-switch
 
-$ ls -al ~/.gitswitchv1.json 
--rw-r--r--  1 yy  staff  232  1 16 12:34 /Users/Yuki/.gitswitchv1.json
+$ ls -al ~/.gitswitch.json 
+-rw-r--r--  1 yy  staff  232  1 16 12:34 /Users/Yuki/.gitswitch.json
 
 $ git-switch
 Use the arrow keys to navigate: ↓ ↑ → ← 
